@@ -90,6 +90,8 @@ public class Ball : MonoBehaviour
         
     }
 
+    
+
     private void OnCollisionEnter(Collision collision)
     {
         if (rb.position.x > 0)
